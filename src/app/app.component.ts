@@ -68,7 +68,7 @@ export class AppComponent implements OnInit {
     }
   }
 
-  navigateFolder(url) {
-    this.navCtrl.navigateForward(url);
+  clicky() {
+    console.log("Clicky gang");
   }
 }
